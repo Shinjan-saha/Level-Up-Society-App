@@ -1,9 +1,9 @@
 # Level-Up-Society-App
-### An Offcial App for Level-Up-Society It,s OFFCIIAL
+### An Offcial App for Level-Up-Society It,s OFFICIAL
 
 
 ## Here is the Overview of the App:-
-<img src="./readme-img/overviewece.png">
+<img src="./readme-img/levelview.png">
 
 
 ## Running on local environment
