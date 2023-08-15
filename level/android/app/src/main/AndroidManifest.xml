@@ -1,0 +1,50 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.level">
+
+     <uses-permission android:name="android.permission.INTERNET" />
+    
+    
+    <application
+        android:label="Level-Up-Society"
+        android:name="${applicationName}"
+        android:icon="@mipmap/logolevel">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+
+            <!-- Specify the FlutterActivity class as the main activity -->
+            <meta-data
+                android:name="flutterEmbedding"
+                android:value="2" />
+
+            <!-- Add the following intent filters to support deep linking -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- Add the intent filter for deep links -->
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <!-- Replace "example.com" with your desired deep link domain -->
+                <!-- <data android:scheme="https" android:host="vercel.app" /> -->
+                <data
+                    android:scheme="http"
+                    android:host="level-up-society.vercel.app" />
+                <data
+                    android:scheme="https"
+                    android:host="level-up-society.vercel.app" />
+
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
