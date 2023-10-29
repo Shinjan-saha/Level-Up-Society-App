@@ -67,7 +67,7 @@ class _TournamentPageState extends State<TournamentPage>
                   childAspectRatio: 1.0,
                   shrinkWrap: true,
                   physics: const NeverScrollableScrollPhysics(),
-                  children: List.generate(9, (index) {
+                  children: List.generate(10, (index) {
                     return GestureDetector(
                       onTap: () {
                         _showImageDialog(
@@ -112,10 +112,12 @@ class _TournamentPageState extends State<TournamentPage>
       case 5:
         return 'asset/pes12.jpg';
       case 6:
-        return 'asset/meme.jpeg';
+        return 'asset/freefire.png';
       case 7:
-        return 'asset/reel.jpeg';
+        return 'asset/meme.jpeg';
       case 8:
+        return 'asset/reel.jpeg';
+      case 9:
         return 'asset/photo.jpeg';
       default:
         return '';
@@ -138,10 +140,12 @@ class _TournamentPageState extends State<TournamentPage>
       case 5:
         return 'PES: Best e-football there is';
       case 6:
-        return 'Make the best meme';
+        return 'FreeFire: Fire your shots';
       case 7:
-        return 'Reel it, make it';
+        return 'Make the best meme';
       case 8:
+        return 'Reel it, make it';
+      case 9:
         return 'Click the best';
       default:
         return '';
