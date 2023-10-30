@@ -20,5 +20,5 @@
 <li>App Only Work on Android </li>
 <li> Despite flutter being A multi platform  this app is curretly cofigured for Android  only </li>
 <li>All Resources  are uploaded in this repo</li>
-<li> You Can Download this app Over here:-</li>
+<li> You Can Download this app Over here:-https://github.com/Shinjan-saha/Level-Up-Society-App/blob/main/level/App-Release/app-release.apk</li>
 </ul>
